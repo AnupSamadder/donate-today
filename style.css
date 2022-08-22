@@ -89,18 +89,20 @@ h2 {
 #food-plan {
     background-color: aquamarine;
     padding: 5%;
+    margin-right: 10px;
 }
 #education-plan {
     background-color: bisque;
-    padding: 5%;
+    padding-top: 4%;
+    margin-right: 10px;
 }
 #shelter-plan {   
     background-color: rgb(255, 143, 249);
-    padding: 5%;
+    padding: 4%;
 }
 
 #update-section h2, p {
-    padding: 2%;
+    padding-top: 2%;
     text-align: center;
 }
 #input-email {
@@ -127,4 +129,15 @@ footer {
     color: rgb(243, 101, 101);
     text-align: center;
     background-color: black;
+}
+
+#our-volunteer {
+    text-align: center;
+}
+.single-volunteer {
+    margin-left: 10%;
+    display: flex;
+}
+.single-volunteer div {
+    margin-left: 5%;
 }
